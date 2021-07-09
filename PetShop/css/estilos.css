@@ -6,11 +6,11 @@ select {
 }
 
 ul{
-   padding-right: 0px;
-   padding-left: 0px;
-   padding-bottom: 0px;
-   padding-top: 0px;
-   margin: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin: 0px;
 }
 li{
     
@@ -19,12 +19,19 @@ li{
     padding-right: 5px;
 
 }
-.navegador{
-    align-items:stretch;
-}
+
 h2{
     text-align: center;
 }
 .centrar{
     text-align: center;
+}
+.card{
+    
+ text-align: center;
+ 
+}
+.footer{
+    text-align: center;
+   
 }
