@@ -1,0 +1,30 @@
+h1{
+    display: inline;
+}
+select {
+    display: inline;
+}
+
+ul{
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   margin: 0px;
+}
+li{
+    
+    list-style-type: none;
+    display: inline;
+    padding-right: 5px;
+
+}
+.navegador{
+    align-items:stretch;
+}
+h2{
+    text-align: center;
+}
+.centrar{
+    text-align: center;
+}
