@@ -1,9 +1,17 @@
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/*header*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: rgb(0,0,0);
     color: #ffff;
+    
 }
 
 .navBar{
@@ -12,49 +20,71 @@
     justify-content: flex-start;
     background-color: rgba(240, 168, 62, 1) ; 
     color:  rgba(60, 35, 19, 1);
-    
+    font-family: 'Roboto', sans-serif;
 }
-.navBar i a{
-    justify-content: flex-end;
-}
+
 .navBar span{
     color:  rgba(255, 255, 255, 1);
+    font-family: 'Roboto', sans-serif;
 }
+.navBar ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+li, i{
+    margin: 5px;
+}
+/*main*/
 .banner{
-    background-image: url("/PetShop/images/banner.svg");
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+    justify-content: center;
+    background-color: 83CCDF;
+    background-image: url("../images/banner.svg");
+    height: 400px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-}
-h1{
-    display: inline;
-}
-
-
-ul{
-    padding-right: 0px;
-    padding-left: 0px;
-    padding-bottom: 0px;
-    padding-top: 0px;
-    margin: 0px;
-}
-li{
     
-    list-style-type: none;
-    display: inline;
-    padding-right: 5px;
-
 }
-
-h2{
-    text-align: center;
+.textH2 {
+    font-weight: 400;
+    font-size: 30px;
+    background-color: #ffff;
 }
-
-.card{
     
- text-align: center;
- 
+    
+
+.pYb{
+    font-weight: 400;
+    font-size: 16px;
+    
 }
-.footer{
+button {
+    background-color:  #F0A83E;
+    margin: 15px 23px;
+    padding: 15px 23px;
+    color: #ffff;
+}
+.section2{
     text-align: center;
-   
+    font-size: 40px;
+    font-weight: 700;
 }
+
+.lista2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.garra{
+    width: 67px;
+    height: 71px;
+}
+
+
+
