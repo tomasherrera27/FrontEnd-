@@ -1,0 +1,59 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    
+}
+.redondeo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 70px;
+    
+}
+.redondeo img{
+    height: 400px;
+    width: 400px;
+    border-radius: 50px ;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin: 30px;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: rgba(238,174,202, 0.3);
+}
+.menu nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+button{
+    padding: 2px;
+    margin: 2px;
+    border: 2px solid;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(238,174,202, 0.3);
+}
+button:hover{
+    background-color: rgb(238,174,202);
+    
+}
+
+.card{
+    width: 80%;
+    margin:  auto;
+    padding: 2%;
+    border: 2px solid;
+    border-radius: 5px;
+    background-color: rgba(238,174,202, 0.3);
+}
+
+
+
+
