@@ -1,41 +1,34 @@
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&family=Zen+Tokyo+Zoo&display=swap');
 body{
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    
+    font-family: 'Raleway', sans-serif;
+}
+.title{
+    text-align: center;
 }
 .redondeo{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    text-align: center;
+    justify-content: space-evenly;
     font-size: 70px;
-    
+    text-align: center;
 }
+
 .redondeo img{
     height: 400px;
     width: 400px;
     border-radius: 50px ;
 }
-.menu{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 2px;
-    margin: 30px;
-    border: 2px solid;
-    border-radius: 5px;
-    background-color: rgba(238,174,202, 0.3);
-}
-.menu nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+h1,h3{
+    font-family: 'Zen Tokyo Zoo', cursive;
 }
 
 button{
-    padding: 2px;
-    margin: 2px;
-    border: 2px solid;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid;
     border-radius: 5px;
     text-align: center;
     background-color: rgba(238,174,202, 0.3);
@@ -54,6 +47,20 @@ button:hover{
     background-color: rgba(238,174,202, 0.3);
 }
 
+dt{
+    font-weight: bold;
+    
+}
 
 
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: bolder;
+}
+i{
+    padding: 5px;
+}
 
