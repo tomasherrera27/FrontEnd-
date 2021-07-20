@@ -1,0 +1,61 @@
+/*fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+.topBar{
+    background-color: rgba(28, 209, 176, 1);
+    width: 1200px;
+    height: 38px;
+    color: rgba(0,0,0,1);
+}
+.textTop{
+    position: absolute;
+    width: 111px;
+    height: 18px;
+    left: 10px;
+    top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+.textH1{
+    position: absolute;
+    width: 128px;
+    height: 47px;
+    left: 28px;
+    top: 66px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 47px;
+}
+.header{
+    width:1200px;
+    height:101px;
+    top:38px;
+    background-color: rgba(0, 102, 159, 1);
+}
+.card{
+    width: 20%;
+    position: relative;
+    top: 154px;
+    left: 32px;
+}
+.background{
+    background-image: url("../images/BackgroundBatman.svg");
+    height: 193px;
+    width: 300px;
+    left: 32px;
+    top: 293px;
+    right: 692px;
+    border-radius: [object Object]px;
+}
+
+
+
