@@ -8,6 +8,10 @@
     font-family:'Roboto', sans-serif;
 }
 /*header*/
+.contenedor{
+    margin: 100px;
+}
+
 .topBar{
     position: sticky;
     background-color: rgba(28, 209, 176, 1);
@@ -97,6 +101,26 @@
     left: 85px;
     background: #00669F;
 
+    
 }
-
+.foot{
+    height: 51px;
+    width: 1200px;
+    left: 0px;
+    top: 972px;
+    background-color: rgba(0, 102, 159, 1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.pFoot{
+    position: relative;
+    top: 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFF9F9;
+}
 
