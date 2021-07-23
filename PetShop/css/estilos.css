@@ -1,7 +1,11 @@
 /* Fuentes */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
-/*header*/
+/*HEADER*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -13,14 +17,28 @@ body{
     color: #ffff;
     
 }
+.header p {
+    margin-left: 90px;
+}
+.selector{
+    margin: 10px;
+}
 
 .navBar{
+    height: 62px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     background-color: rgba(240, 168, 62, 1) ; 
     color:  rgba(60, 35, 19, 1);
     font-family: 'Roboto', sans-serif;
+    
+}
+
+.navBarTitulo{
+    display: flex;
+    align-items: center;
+    margin-left: 58px;
 }
 
 .navBar span{
@@ -32,12 +50,20 @@ body{
     align-items: flex-end;
     justify-content: flex-end;
     flex-direction: row;
+    
+
 }
-li, i{
+.navBar a ,i{
     margin: 5px;
     list-style: none; 
+    color: rgba(255, 255, 255, 1);
+
 }
-/*main*/
+li{
+    margin: 5px;
+    list-style: none;
+}
+/*MAIN*/
 .banner{
     display: flex;
     align-items:flex-end;
@@ -47,14 +73,25 @@ li, i{
     background-image: url("../images/banner.svg");
     height: 400px;
     width: 100%;
+    padding: 12px;
     background-repeat: no-repeat;
     background-size: cover;
-    
+
+}
+
+.banner button{
+    margin-right: 117px;
+}
+.banner p{
+    padding-right: 95px;
+
 }
 .textH2 {
     font-weight: 400;
     font-size: 30px;
+    padding: 5px;
     background-color: #ffff;
+    margin: 12px;
 }
     
     
@@ -62,6 +99,7 @@ li, i{
 .pYb{
     font-weight: 400;
     font-size: 16px;
+    padding-top: 12px;
     
 }
 button {
@@ -74,6 +112,7 @@ button {
     text-align: center;
     font-size: 40px;
     font-weight: 700;
+    margin: 10px;
 }
 
 .lista2{
@@ -81,11 +120,26 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    color: #F0A83E;
+    margin-top: 20px ;
 }
 .garra{
     width: 67px;
     height: 71px;
 }
+.conteiner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgba(251, 250, 246, 1);
+    border: 1px solid;
+    border-radius: 2px;
+    margin: 20px;
+    text-align: center;
+}
+/*---FOOTER---*/
 .contact{
     background-color: rgba(60, 35, 19, 1);
     color:rgba(255, 255, 255, 1);

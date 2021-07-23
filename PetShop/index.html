@@ -12,7 +12,8 @@
     <header>
         <div class="header">
         <p>Grandes ofertas en comederos</p>
-        <select name="languaje" id="" class="selector">
+        <div class="selector">
+        <select name="languaje" id="" class="">
             <option>Español</option>
             <option>Ingles</option>
         </select>
@@ -21,10 +22,13 @@
             <option>USD$</option>
         </select>
         </div>
+        </div>
         <div class="navBar">
+            <div class="navBarTitulo">
             <img src="images/Cat.svg" alt="LogoGato">
             <h1>Front<span>Cat&Dog</span></h1>
             <img src="images/Dog.svg" alt="LogoPerro">
+            </div>
             <nav class="list">
             <ul>
             <i class="fas fa-paw"></i>
@@ -36,7 +40,7 @@
             <i class="fas fa-paw"></i>
             <li><a href="#Contacto">Contacto</a></li>
             </ul> 
-        </nav>
+            </nav>
         </div>
     </header>
     <main>
@@ -58,24 +62,33 @@
         <li>Comida</li>
     </ul>
     </section>
-    <div class="card">
+    <div class="conteiner">
+        <div class="card">
         <img src="images/churrasquito.svg" alt="churrasquito">
         <h3>Jueguete churrasquito</h3>
         <p>$150</p>
+        </div>
+        <div class="card">
         <img src="images/comedero.svg" alt="comedero">
         <h3>Comedero para perro </h3>
         <p>$250</p>
+        </div>
+        <div class="card">
         <img src="images/Huesito.svg" alt="huesito">
         <h3>Jueguete huesito</h3>
         <p>$650</p>
+        </div>
     </div>
     </main>
     <hr>
     <footer class="footer">
         <div>
             <h3>Suscribite para mas novedades</h3>
-            <input type="text" placeholder="Ingresá tu correo electronico">
-            <button type="submit">Suscribirme</button>
+            <form>
+                <input type="text" placeholder="Ingresá tu correo electronico">
+                <input type="submit"></input>
+            </form>
+            
         </div>
         <div class="contact">
             <i class="fas fa-map-marker-alt"></i>
