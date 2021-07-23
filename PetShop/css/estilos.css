@@ -13,15 +13,19 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(0,0,0);
-    color: #ffff;
+    background-color: rgba(34, 34, 34, 1)
     
 }
 .header p {
     margin-left: 90px;
+    color:  rgba(243, 243, 243, 1);
+    
 }
 .selector{
     margin: 10px;
+    background-color: rgba(34, 34, 34, 1);
+    color:#ffff; 
+    
 }
 
 .navBar{
@@ -70,7 +74,7 @@ li{
     flex-direction: column;
     justify-content: center;
     background-color: 83CCDF;
-    background-image: url("../images/banner.svg");
+    background-image: url("../images/bannerPetShop.png");
     height: 400px;
     width: 100%;
     padding: 12px;
