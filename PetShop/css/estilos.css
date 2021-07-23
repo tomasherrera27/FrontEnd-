@@ -112,6 +112,8 @@ button {
     margin: 15px 23px;
     padding: 15px 23px;
     color: #ffff;
+    cursor: pointer;
+    outline: none;
 }
 .section2{
     text-align: center;
@@ -183,6 +185,8 @@ button {
     background-color: #F0A83E;
     margin: 5px;
     border: none;
+    cursor: pointer;
+    
 }
 .boton2_contacto{
     width: 110px;
@@ -192,6 +196,7 @@ button {
     margin: 5px;
     margin-bottom: 75px;
     border: none;
+    cursor: pointer;
 }
 
 /*---FOOTER---*/
@@ -223,6 +228,7 @@ button {
     border: none;
     background: rgba(60, 35, 19, 1);
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .contact{
