@@ -15,7 +15,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     height: 100px;
-    width: 1300px;
+    width: 100%;
     background-color: rgba(34, 34, 34, 1);
 
 }
@@ -111,19 +111,14 @@ h2{
     color:  rgba(252, 32, 12, 1);
     font-weight: 700;
 }
-h3{
-    position: absolute;
-    top: 247px;
-    left: 740px;
-    font-weight: 700;
-}
+
 /*---FOOTER---*/
 .foot{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     height: 150px;
-    width: 1300px;
+    width: 100%;
     top: 520px;
     background-color: rgba(34, 34, 34, 1);
 }
