@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetShop</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="css/estilos.css" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -75,32 +77,67 @@
         </div>
         <div class="card">
         <img src="images/Huesito.svg" alt="huesito">
-        <h3>Jueguete huesito</h3>
+        <h3>Jueguete Huesito</h3>
         <p>$650</p>
         </div>
     </div>
+    
+        
+    <form class="form_contacto">
+            <h2>Contáctanos</h2>
+            <input type="text" placeholder="Nombre y apellido" class="input_contacto">
+            <input type="text" placeholder="ingresa tu correo electronico" class="input_contacto">
+            <input type="text" placeholder="telefono" class="input_contacto">
+        <div>
+            <input type="submit" value="Resetear" class="boton2_contacto">
+            <input type="submit" value="Enviar" class="boton1_contacto">
+        </div>
+    </form>
+    
     </main>
     <hr>
-    <footer class="footer">
-        <div>
-            <h3>Suscribite para mas novedades</h3>
+    <footer>
+        <div class="footer_suscribe">
+            <div class="icon_class">
+                <i class="fas fa-envelope-square fa-2x"></i>
+            <h3>Suscríbete para mas novedades</h3>
+            </div>
             <form>
-                <input type="text" placeholder="Ingresá tu correo electronico">
-                <input type="submit"></input>
+                <input type="text" placeholder="Ingresá tu correo electronico" class="input_text">
+                <input type="submit" value="suscribe" class="boton_suscribe"></input>
             </form>
             
         </div>
         <div class="contact">
-            <i class="fas fa-map-marker-alt"></i>
-            <h4>Localidad</h4>
-            <p>Calle-Provincia</p>
-            <i class="fas fa-phone-volume"></i>
-            <h4>Télefono</h4>
-            <p>Numero de Telefono</p>
-            <i class="far fa-envelope"></i>
-            <h4>Correo Electronico</h4>
-            <p>Direccion de correo</p>
-            
+            <div class="contenedor_divsInformacion">
+                <div class="footer_informacion">
+                    
+                    <i class="fas fa-map-marker-alt fa-2x"></i>
+                    
+                    <div class="informacion_texto">
+                        <h5>Localidad</h5>
+                        <p class="p_footer">Calle-Provincia</p>
+                    </div>
+                </div>
+                <div class="footer_informacion">
+                    
+                        <i class="fas fa-phone-volume fa-2x"></i>
+                    
+                        <div class="informacion_texto">
+                        <h5>Télefono</h5>
+                        <p class="p_footer">Numero de Telefono</p>
+                    </div>
+                </div>
+                <div class="footer_informacion">
+                    
+                        <i class="far fa-envelope fa-2x"></i>
+                    
+                        <div class="informacion_texto">
+                        <h5 class="cE">Correo Electronico</h5>
+                        <p class="p_footer cE">Direccion de correo</p>
+                    </div>
+                </div>
+            </div>
             <div class="finalText">
                 <img src="images/Cat.svg" alt="LogoGato">
                 <h5>Front<span>Cat&Dog</span></h5>
