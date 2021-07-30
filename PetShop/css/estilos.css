@@ -12,6 +12,7 @@ body{
 .header {
     display: flex;
     align-items: center;
+    width: 100%;
     justify-content: space-between;
     background-color: rgba(34, 34, 34, 1)
     
@@ -66,6 +67,9 @@ body{
 li{
     margin: 5px;
     list-style: none;
+}
+.icono_ham{
+    display: none;
 }
 /*MAIN*/
 .banner{
@@ -284,3 +288,38 @@ button {
     padding: 10px;
 }
 
+@media (max-width: 768px){
+    .header{
+        display: none;
+    }
+    .navBar{
+        justify-content: space-evenly;
+    }
+    .navBar ul{
+        display: none;
+    }
+    .icono_ham{
+        display: block;
+    }
+    .conteiner{
+        flex-direction: column;
+    }
+    .footer_suscribe{
+        flex-direction: column;
+        height: 100px;
+    }
+    .contact{
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    .finalText{
+        position: absolute;
+        margin-left: 6rem;
+    }
+    .contenedor_divsInformacion{
+        margin-top: 2.5rem;
+    }
+    
+}
+    
