@@ -42,18 +42,49 @@ header{
     color:  #FFFFFF;
 }
 main{
-
+   display: flex;
+   justify-content: center;
+   align-items:center ;
 }
 .card{
+    display: flex;
+    justify-content: space-between ;
+    flex-direction: column;
+    align-items: center;
     border-radius: 15px ;
     background-color:#F3F3F3;
     width:300px ;
     margin-top: 2.5rem;
     margin-left: 2.5rem ;
+    
+}
+.batman{
+    position: absolute;
+    border-radius: 50%;
+    margin-left: -60px;
+    margin-top: -70px;
+    
 }
 .titulo{
-    text-align: center;
+    margin-top: 2rem;
+    padding: 2rem;
 }
+
+a{
+    color: #F3F3F3;
+    text-decoration: none;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 48px;
+    width: 128px;
+    background-color: #00669F;
+    margin: 2rem;
+}
+
 
 
 
