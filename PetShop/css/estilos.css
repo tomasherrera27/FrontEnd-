@@ -44,7 +44,14 @@ body{
     display: flex;
     align-items: center;
     margin-left: 58px;
+    
 }
+.navBarTitulo:hover{
+    transform: skew(15deg);
+}
+
+
+
 
 .navBar span{
     color:  rgba(255, 255, 255, 1);
@@ -63,6 +70,9 @@ body{
     list-style: none; 
     color: rgba(255, 255, 255, 1);
 
+}
+.navBar a:hover{
+    color: #000000;
 }
 li{
     margin: 5px;
