@@ -100,6 +100,10 @@ li{
 .banner button{
     margin-right: 117px;
 }
+button:hover{
+    border: 2px solid;
+    color: #000000;
+}
 .banner p{
     padding-right: 95px;
 
@@ -159,6 +163,10 @@ button {
     border-radius: 2px;
     margin: 20px;
     text-align: center;
+    transition: transform 1s;
+}
+.card:hover{
+    transform: scale(1.1);
 }
 .card h3{
     font-weight: 700;
@@ -244,7 +252,10 @@ button {
     color: #FFFFFF;
     cursor: pointer;
 }
-
+input:hover{
+    border: 2px solid;
+    color: #000000;
+}
 .contact{
     display: flex;
     justify-content: space-between;
@@ -297,6 +308,7 @@ button {
 ::placeholder{
     padding: 10px;
 }
+
 
 @media (max-width: 768px){
     .header{
