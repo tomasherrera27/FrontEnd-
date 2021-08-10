@@ -1,0 +1,30 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+
+header{
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.big_conteiner{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    border: 2px solid;
+    border-radius: 25px;
+    text-align: center;
+}
+.small_conteiner{
+    border: 2px solid;
+    border-radius: 25px;
+    width: 15rem;
+    margin: 1.2rem;
+}
