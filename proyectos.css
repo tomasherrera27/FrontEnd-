@@ -27,4 +27,18 @@ main{
     border-radius: 25px;
     width: 15rem;
     margin: 1.2rem;
+    transition: transform 1s;
 }
+.small_conteiner:hover{
+    transform: scale(1.1);
+}
+a{
+    color: #000000;
+}
+a:hover{
+    color: #2471A3  ;
+}
+
+
+
+
