@@ -41,6 +41,7 @@ header {
   color: #ffffff;
 }
 .bar2 i{
+  position: sticky;
     color: white;
     margin-left: 0px;
 }
