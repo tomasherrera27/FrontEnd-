@@ -8,6 +8,8 @@
 }
 /*---EMPIEZA EL HEADER---*/
 body{
+    height: 100%;
+    width: 100%;
     background-color:#E5E5E5 ;
 }
 .header{

@@ -8,6 +8,12 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+body{
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+
 /*header*/
 header {
   position: sticky;
@@ -56,7 +62,7 @@ header {
 }
 li {
   margin: 1rem;
-  list-style: none;
+  list-style-type: none;
 }
 /* main */
 main {
@@ -76,9 +82,10 @@ main {
   border-radius: 15px;
   background-color: #f3f3f3;
   width: 300px;
-  margin-top: 2.5rem;
-  margin-left: 2.5rem;
+  margin: 2.5rem 1.5rem;
 }
+
+
 .batman {
   position: absolute;
   border-radius: 50%;
@@ -122,8 +129,14 @@ a {
   color: #333333;
 
 }
+
 .campos{
   height: 60px;
+  width: 600px;
+  margin: 5px;
+}
+.textArea{
+  height: 251px ;
   width: 600px;
   margin: 5px;
 }
@@ -156,6 +169,7 @@ a {
   background-color: #1cd1b0;
   border-radius: 25px;
   border: none;
+  cursor: pointer;
   
 }
 .botonReset{
@@ -165,9 +179,13 @@ a {
   border-radius: 25px;
   border: none; 
   margin-right: 10px;
+  cursor: pointer;
 }
+
+
 /*footer*/
 footer {
+  
   display: flex;
   align-items: center;
   justify-content: center;
