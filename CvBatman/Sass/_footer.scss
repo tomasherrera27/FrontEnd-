@@ -1,0 +1,18 @@
+footer{
+    background-color: #005677;
+    .foot{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #005677;
+        color: #ffff;
+        border: 1px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    p{
+        color: white;
+    }
+}
