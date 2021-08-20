@@ -1,0 +1,217 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f8f8;
+}
+
+.nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem;
+  background-color: #f8f8f8;
+}
+
+.nav ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav ul li {
+  margin-right: 50px;
+}
+
+.nav ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+.banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.banner .text {
+  margin: 3rem;
+}
+
+.banner .text-underline {
+  position: absolute;
+  margin-top: -10px;
+  height: 50px;
+  width: 200px;
+  background-color: #03faee;
+  z-index: -1;
+}
+
+.banner .text h2 {
+  display: inline;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 55px;
+  letter-spacing: 10px;
+}
+
+.banner .text p {
+  color: #8b8b8b;
+  margin-top: 1.5rem;
+}
+
+.banner .text input {
+  height: 60px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #03faee;
+  margin-top: 50px;
+  margin-right: 20px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.banner .text input:hover {
+  color: #f8f8f8;
+  border: 1px solid;
+}
+
+.conteiner-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.conteiner-cards .card {
+  background-color: #8b8b8b18;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 20px;
+  height: 250px;
+}
+
+.conteiner-cards .card-icon {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 5px;
+  border: 1px solid;
+  border-radius: 50%;
+  /*  width: 40px;
+    height: 40px; */
+  -webkit-box-shadow: -5px -1px #92f7f2;
+          box-shadow: -5px -1px #92f7f2;
+}
+
+.conteiner-cards .card h4 {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px 0px;
+}
+
+.conteiner-cards .card p {
+  color: #8b8b8b;
+}
+
+.foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 50px;
+  background-color: #f8f8f8;
+}
+
+.foot .rights {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 1.5rem;
+}
+
+.foot .icons i {
+  margin: 5px;
+  border: 1px solid;
+  border-radius: 50%;
+  /*  width: 40px;
+    height: 40px; */
+  -webkit-box-shadow: -5px -1px #92f7f2;
+          box-shadow: -5px -1px #92f7f2;
+  border-style: none;
+  margin-left: 1.5rem;
+  border-radius: 50%;
+}
+
+.foot .shadow {
+  margin: 5px;
+  border: 1px solid;
+  border-radius: 50%;
+  /*  width: 40px;
+    height: 40px; */
+  -webkit-box-shadow: -5px -1px #92f7f2;
+          box-shadow: -5px -1px #92f7f2;
+  display: inline;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1.5rem;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=styles.css.map */
