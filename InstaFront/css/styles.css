@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap");
+body {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "header header header" "mainleft main mainRight" "footer footer footer";
+  gap: 20px;
+}
+
+footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: footer;
+  background-color: blue;
+  /* position: absolute;
+    bottom: 0;
+    width: 100%;*/
+}
+
+header {
+  background-color: #FFFFFF;
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: header;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  border-bottom: 0.5px solid;
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+header img {
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  grid-area: main;
+}
+
+main .stories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  background-color: #FFFFFF;
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+main .stories img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+footer {
+  -ms-grid-row: 3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: footer;
+  background-color: blue;
+  /* position: absolute;
+    bottom: 0;
+    width: 100%;*/
+}
+/*# sourceMappingURL=styles.css.map */

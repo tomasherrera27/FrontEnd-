@@ -1,0 +1,16 @@
+body{
+    display: grid;
+    grid-template-areas: "header header header"
+                          "mainleft main mainRight"
+                          "footer footer footer";
+    gap: 20px;
+}
+
+
+footer{
+    grid-area: footer;
+    background-color: blue;
+   /* position: absolute;
+    bottom: 0;
+    width: 100%;*/
+}

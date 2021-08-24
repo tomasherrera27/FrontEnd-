@@ -40,7 +40,14 @@ a:hover{
 }
 
 
-
+@media screen and (max-width: 768px) {
+    .small_conteiner{
+        width: 12rem;
+    }
+    .big_conteiner{
+        width: 60%;
+    }
+}
 
 
 

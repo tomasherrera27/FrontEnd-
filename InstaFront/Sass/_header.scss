@@ -1,0 +1,16 @@
+header{
+    background-color: #FFFFFF;
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    img{
+        width: 50px;
+        height: 40px;
+        border-radius: 50%;
+    }
+    border-bottom: 0.5px solid;
+    border-color: rgba(0, 0, 0, 0.25);
+ } 
