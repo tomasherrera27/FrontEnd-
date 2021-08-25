@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap");
 body {
   display: -ms-grid;
@@ -48,6 +49,16 @@ main {
   -ms-grid-row: 2;
   -ms-grid-column: 2;
   grid-area: main;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 main .stories {
@@ -61,9 +72,11 @@ main .stories {
       -ms-flex-align: center;
           align-items: center;
   height: 100px;
+  width: 370px;
   background-color: #FFFFFF;
   border: 1px solid;
   border-color: rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
 }
 
 main .stories img {
@@ -71,6 +84,77 @@ main .stories img {
   height: 60px;
   border-radius: 50%;
   margin: 10px;
+}
+
+main .card {
+  margin: 25px;
+  width: 370px;
+  height: 550px;
+  border: 1px solid;
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+main .card-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid;
+  border-color: rgba(0, 0, 0, 0.25);
+}
+
+main .card-header img {
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+main .card-header i {
+  margin-right: 10px;
+}
+
+main .card-header-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .card-publish {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+}
+
+main .card-publish img {
+  width: 320px;
+  height: 320px;
+}
+
+main .card .icons {
+  margin: 10px 20px;
+}
+
+main .card .icons i {
+  margin-right: 15px;
 }
 
 footer {

@@ -1,18 +1,68 @@
 main{
     grid-area: main;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     .stories{
         display: flex;
         justify-content: center;
         align-items:  center ;
         height: 100px;
+        width: 370px;
         background-color:#FFFFFF;
         border: 1px solid;
         border-color: rgba(0, 0, 0, 0.25);
+        border-radius: 5px;
         img{
             width: 60px;
             height: 60px;
             border-radius: 50%;
             margin: 10px;
+        }
+        
+    }
+    .card{
+        margin: 25px ;
+        width: 370px;
+        height: 550px;
+        border: 1px solid ;
+        border-color: rgba(0, 0, 0, 0.25); 
+        
+        &-header{
+            display: flex;
+            align-items: center ;
+            justify-content: space-between;
+            border-bottom: 1px solid;
+            border-color: rgba(0, 0, 0, 0.25);
+            img{
+                @include imagen;
+            }
+            i{
+                margin-right: 10px ;
+            }
+            &-flex{
+                display: flex;
+                align-items: center;
+            }
+        }
+        &-publish{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+            img{
+            width: 320px;
+            height: 320px;
+            }
+            
+        }
+        .icons{
+           margin: 10px 20px;
+           i{
+               margin-right: 15px;
+           }
+           
         }
     }
 }
